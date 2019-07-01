@@ -16,8 +16,13 @@
 
 *****************/
 
+
+
+
+
 class Solution {
-    int dp[1005][1005];
+
+    int dp[2005][2005];
     
     int go(string &word1,string &word2,int n,int m)
     {
